@@ -2,9 +2,9 @@
   padding: 15px 30px;
   border: 0;
   border-radius: 5px;
-  color: $white;
+  color: #777777;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 400;
   @include mq(large) {
     padding: 10px 30px;
   }
@@ -13,6 +13,7 @@
 %btn {
   @extend %rounded;
   width: 100%;
+  color: $white;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
   margin: em(12px) 0;
