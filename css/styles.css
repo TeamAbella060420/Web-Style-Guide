@@ -3,9 +3,9 @@
   padding: 15px 30px;
   border: 0;
   border-radius: 5px;
-  color: #fff;
+  color: #777777;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 @media (min-width: 1050px) {
@@ -16,6 +16,7 @@
 
 .btn--default.theme__colors, .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors {
   width: 100%;
+  color: #fff;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
   margin: 0.66667em 0;
@@ -181,7 +182,7 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-  font-size: 100%;
+  font-size: 1.1rem;
   /* 1 */
   line-height: 1.15;
   /* 1 */
