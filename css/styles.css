@@ -4,7 +4,6 @@
   border: 0;
   border-radius: 5px;
   color: #777777;
-  text-transform: uppercase;
   font-weight: 400;
 }
 
@@ -16,6 +15,7 @@
 
 .btn--default.theme__colors, .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors {
   width: 100%;
+  text-transform: uppercase;
   color: #fff;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
@@ -389,7 +389,7 @@ ul {
 
 @media (min-width: 1050px) {
   .container {
-    max-width: 1200px;
+    max-width: 1520px;
   }
 }
 
@@ -875,6 +875,10 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 150%;
     margin-bottom: 0;
   }
 }
@@ -892,7 +896,7 @@ ul {
   text-align: center;
   text-decoration: none;
   font-weight: 300;
-  font-size: 1.11111em;
+  font-size: 1em;
   padding: 1.11111em;
   border-radius: 0.55556em;
   -webkit-transition: color 0.3s, background-color 0.3s;
@@ -907,7 +911,7 @@ ul {
 
 @media (min-width: 1050px) {
   .nav__item a:link, .nav__item a:visited {
-    padding: 0.16667em 1.11111em;
+    padding: 0.16667em 0.27778em;
   }
 }
 
